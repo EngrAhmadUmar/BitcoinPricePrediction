@@ -5,6 +5,8 @@ import openpyxl
 import xlrd
 import numpy as np
 import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
