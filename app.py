@@ -9,8 +9,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
 
-hehe
-
 
 # loading the trained model
 model = pickle.load(open('PickleModel.pkl','rb'))
