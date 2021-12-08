@@ -36,7 +36,7 @@ def main():
     # front end elements of the web page
     html_temp = """ 
     <div style ="background-color:#002E6D;padding:20px;font-weight:15px"> 
-    <h1 style ="color:white;text-align:center;"> Sport Prediction</h1> 
+    <h1 style ="color:white;text-align:center;"> Bitcoin Prediction</h1> 
     </div> 
     """
 
@@ -77,7 +77,7 @@ def main():
       #Running our prediction
       prediction = model.predict(testx)
      
-      result = prediction
+      result = scaler.inverse_transform(prediction)
       
       #Displaying our prediction result
       st.write(result)
