@@ -36,7 +36,8 @@ def main():
     # front end elements of the web page
     html_temp = """ 
     <div style ="background-color:#002E6D;padding:20px;font-weight:15px"> 
-    <h1 style ="color:white;text-align:center;"> Bitcoin Prediction</h1> 
+    <h1 style ="color:white;text-align:center;"> Bitcoin Price Prediction</h1> 
+    <h2 style ="color:white;text-align:center;"> By Ahmad Ahmed/h2> 
     </div> 
     """
 
