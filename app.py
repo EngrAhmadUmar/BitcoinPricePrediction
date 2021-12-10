@@ -83,6 +83,8 @@ def main():
       #Displaying our prediction result
       st.write(result)
 
+      <h3 style ="color:white;text-align:center;"> Thank You! </h3> 
+
 
 if __name__ == '__main__':
     main()
